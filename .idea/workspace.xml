@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="afeef55c-1253-42ab-bbbc-dae646061c09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Олег/Documents/GitHub/maxima-java-04"
+    "last_opened_file_path": "C:/Users/Олег/Documents/GitHub/maxima-java-02",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,6 +45,8 @@
       <workItem from="1666694813586" duration="37000" />
       <workItem from="1668701374357" duration="24000" />
       <workItem from="1670245977354" duration="15000" />
+      <workItem from="1671632951035" duration="115000" />
+      <workItem from="1671635514642" duration="1707000" />
     </task>
     <servers />
   </component>
