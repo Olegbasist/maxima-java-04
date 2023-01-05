@@ -16,6 +16,11 @@ public class App
         City city = new City("Washington D.C.",6847);
         Train parovoz = new Train("1", "Паровоз", false, 950000, 8,60,1.5f);
         System.out.println(parovoz.getName() +" чих-пых = "+ parovoz.getPrice(city));
-
+        System.out.println("------------------------------------------------------");
+        parovoz.setId("4");
+        parovoz.setName("Чих-Чихыч");
+        parovoz.setCostOfKm(1);
+        System.out.println(parovoz.getName() + parovoz.getId() + parovoz.isExpress() + parovoz.getCarriageCount());
+        System.out.println(parovoz.getName() +" чих-пых = "+ parovoz.getPrice(city));
     }
 }
