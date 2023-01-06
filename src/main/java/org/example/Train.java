@@ -24,15 +24,27 @@ public class Train extends Transport {
     private int speed;
     private float costOfKm;
 
-
     public Train(String id, String name, boolean isExpress, int capacity, int carriageCount, int speed, float costOfKm) {
+        super(name, capacity, speed, costOfKm);//Lombok не подхватывает "предковые" свойства
+        this.id = id;
+        this.carriageCount = carriageCount;
+        this.isExpress = isExpress;
+        //   Пришлось добавить для Lombok
+        this.name = name;
+        this.capacity = capacity;
+        this.speed = speed;
+        this.costOfKm = costOfKm;
+    }
+
+
+    /*public Train(String id, String name, boolean isExpress, int capacity, int carriageCount, int speed, float costOfKm) {
 
         super(name, capacity, speed, costOfKm);
         this.id = id;
         this.isExpress = isExpress;
         this.carriageCount = carriageCount;
 
-    }
+    }*/
 
 
 
