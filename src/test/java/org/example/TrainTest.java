@@ -1,14 +1,21 @@
 package org.example;
 
+import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 
 public class TrainTest {
 
-    City city = new City("City",1);
-    Transport train = new Train("1","Train", true, 1,1,1,1);
+    private City city;
+    private Train train;
 
+    @Before
+    public void prepare () {
+        city = new City("City",1);
+        train = new Train("1","Train", true, 1,1,1,1);
+    }
 
     @Test
     public void shouldTransportIsNotNull () {
@@ -21,9 +28,12 @@ public class TrainTest {
     @Test
     public void shouldTransportBeEqualItsSet () {
         assertEquals("Train",train.getName());
+        assertTrue(train.isExpress());
         assertEquals(1,train.getCapacity());
+        assertEquals(1,train.getCarriageCount());
         assertEquals(1,train.getSpeed());
         assertEquals(1,train.getCostOfKm(),0);
+
     }
     @Test
     public void shouldCityBeEqualItsSet () {
@@ -43,6 +53,12 @@ public class TrainTest {
         assertTrue(train.isRepairing());
         train.finishRepair();
         assertFalse(train.isRepairing());
+    }
+    @Test @Ignore
+    public void shouldNewVehicleBe() {
+        Plane plane = new Plane("Plane",1,1,1);
+        plane.printVehicleFetcher();
+
     }
 
 }
