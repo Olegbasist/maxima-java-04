@@ -7,11 +7,12 @@ import static org.junit.Assert.*;
 public class TrainTest {
 
     @Test
-    public void trainExistence (){
+    public void shouldAnswerWithTrue (){
 
+        City city = new City("City",1);
         Transport train = new Train("1","Train", true, 1,1,1,1);
-        System.out.println(train);
 
+        assertEquals(1,train.getPrice(city),0);
 
     }
 

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afeef55c-1253-42ab-bbbc-dae646061c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TrainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TrainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TrainTest">
+  <component name="RunManager" selected="JUnit.TrainTest.shouldAnswerWithTrue">
     <configuration name="Run App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="maxima-java-04" />
@@ -68,8 +67,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrainTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maxima-java-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TrainTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrainTest.shouldAnswerWithTrue" />
         <item itemvalue="JUnit.TrainTest" />
       </list>
     </recent_temporary>
@@ -90,7 +106,8 @@
       <workItem from="1671638626333" duration="177000" />
       <workItem from="1671725699247" duration="636000" />
       <workItem from="1672897526772" duration="6487000" />
-      <workItem from="1672989183524" duration="7468000" />
+      <workItem from="1672989183524" duration="8060000" />
+      <workItem from="1673080146648" duration="371000" />
     </task>
     <servers />
   </component>
